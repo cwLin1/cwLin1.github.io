@@ -187,47 +187,47 @@
 
     <tr>
         <td width="33%" valign="top" align="center">
-            <!-- <a href="#">
-            <img src="images/iscas20.png" alt="sym" width="100%" height="14%" style="border-radius:15px"></a> -->
-            <!-- <img src="images/iscas20.png" alt="sym" width="300" height="200" style="border-radius:15px"> -->
+            <a href="#">
+            <!-- <img src="images/vis.png" alt="sym" width="100%" height="14%" style="border-radius:15px"></a> -->
+            <img src="images/cvgip23.png" alt="sym" width="300" height="200" style="border-radius:15px">
         </td>
 
         <td width="67%" valign="top">
             <p>
-                <!-- <a href="#" id="iscas20"></a>
-                <heading>Semantic Segmentation on Compressed Video Using Block Motion Compensation and Guided Inpainting</heading></a>
-                <heading>Semantic Segmentation on Compressed Video Using Block Motion Compensation and Guided Inpainting</heading> -->
-                <!-- <br>
-                Stefanie Tanujaya, <u><b>Tieh Chu</b></u>, Jia-Hao Liu, Wen-Hsiao Peng
+                <a href="#" id="CVGIP23"></a>
+                <heading>LinAlign: X-Ray Image Alignment before and after Total Hip Arthroplasty.</heading></a>
                 <br>
-                ISCAS 2020 <b>(Oral Presentation)</b>
-                <br> -->
+                <u><b>Cheng-Wei Lin</b></u>, Alexander Yurusov, and Chiou-Shann Fuh
+                <br>
+                CVGIP 2023
+                <br>
             </p>
     
-            <div class="paper" id="iscas20">
+            <div class="paper" id="CVGIP23">
             <!-- <a href="https://zswang666.github.io/P2PVG-Project-Page/">webpage</a> | -->
-            <!-- | <a href="javascript:toggleblock('iscas20_abs')">abstract</a> |
-            <a href="https://drive.google.com/file/d/1CFJn02qQunDLC6FFw5urA2gTT3MrunGP/view?usp=sharing">video</a> |
-            <a href="https://drive.google.com/file/d/1LVNP5fCgWaQCSrtJ0CRGx2HPdVg3wHvb/view?usp=sharing">pdf</a> | -->
+            | <a href="javascript:toggleblock('CVGIP23_abs')">abstract</a> |
+            <a href="https://drive.google.com/file/d/1ZWrYl7wmE4HRASM43riI6Go7keboSRpB/view?usp=sharing">video</a> |
+            <a href="doc/CVGIP2023-CWLin.pdf">pdf</a> |
             <!-- <a href="https://arxiv.org/abs/1904.03086">arXiv</a> -->
             <!-- <a href="https://github.com/yccyenchicheng/p2pvg">code</a> -->
     
-            <!-- <p align="justify">
-                <i id='iscas20_abs'>
-                  This paper addresses the problem of fast semantic segmentation on compressed video. 
-                  Unlike most prior works for video segmentation, which perform feature propagation based on optical 
-                  flow estimates or sophisticated warping techniques, ours takes advantage of block motion vectors in 
-                  the com- pressed bitstream to propagate the segmentation of a keyframe to subsequent non-keyframes. 
-                  This approach, however, needs to respect the inter-frame prediction structure, which often suggests 
-                  recursive, multi-step prediction with error propagation and accumulation in the temporal dimension. 
-                  To tackle the issue, we refine the motion-compensated segmentation using inpainting. Our inpainting 
-                  network incorporates guided non-local attention for long-range reference and pixel-adaptive convolution 
-                  for ensuring the local coherence of the segmentation. A fusion step then follows to combine both the 
-                  motion-compensated and inpainted segmentations. Experimental results show that our method outperforms 
-                  the state-of-the-art baselines in terms of segmentation accuracy. Moreover, it introduces the least 
-                  amount of network parameters and multiply-add operations for non- keyframe segmentation.
+            <p align="justify">
+                <i id='CVGIP23_abs'>
+                  In this paper, we propose LinAlign: a computer vision algorithm for aligning X-ray images before and after surgery, 
+                  providing a system for surgeons to compare images before and after surgery more efficiently and replace manually aligning procedure. 
+                  LinAlign allows only align specific area when aligning images, and solve the problem that linear transformation cannot be performed 
+                  on non-rigid objects. Therefore, it is suitable for comparing the position of bones during the hip replacement surgery, 
+                  allowing orthopedic surgeons to make sure that implants have been installed correctly.
+
+                  In our experiment, we took the X-ray images of the pelvis as our experimental data: each set of images contains the X-ray 
+                  photographs of the same patient taken at different times. We experiment with different methods. By comparing similar features 
+                  between images and calculating the displacement of these feature points, the images can be aligned.
+
+                  We evaluate the performance of the algorithm by the error of pre-defined landmarks after alignment. These landmarks are 
+                  anatomically important features of the skeletal system. The goal of our experiment is to minimize the distance of landmarks 
+                  between image pair. We take the mean square error of these landmark distances as the performance metric to our algorithm.
                 </i>
-            </p> -->
+            </p>
     
             <!-- <pre xml:space="preserve">
             @article{chao18radiotherapy,
@@ -245,49 +245,89 @@
         </td>
     </tr>
 
+    <tr>
+      <td width="33%" valign="top" align="center">
+          <a href="#">
+          <!-- <img src="images/vis.png" alt="sym" width="100%" height="14%" style="border-radius:15px"></a> -->
+          <img src="images/itaoi22.png" alt="sym" width="300" height="200" style="border-radius:15px">
+      </td>
+
+      <td width="67%" valign="top">
+          <p>
+              <a href="#" id="ITAOI22"></a>
+              <heading>Detection of Operators’ Inspection Quality in Car Factory.</heading></a>
+              <br>
+              <u><b>Cheng-Wei Lin</b></u> and Chiou-Shann Fuh
+              <br>
+              ITAOI 2022 <b>(Best Paper Award)</b>
+              <br>
+          </p>
+  
+          <div class="paper" id="ITAOI22">
+          <!-- <a href="https://zswang666.github.io/P2PVG-Project-Page/">webpage</a> | -->
+          | <a href="javascript:toggleblock('ITAOI22_abs')">abstract</a> |
+          <a href="https://drive.google.com/file/d/1Cqkyy6j8F1VXeWVPPt2HZd9jUQlVXGgo/view?usp=sharing">video</a> |
+          <a href="doc/Detection of Operators’ Inspection Quality in Car Factory.pdf">pdf</a> |
+          <!-- <a href="https://arxiv.org/abs/1904.03086">arXiv</a> -->
+          <!-- <a href="https://github.com/yccyenchicheng/p2pvg">code</a> -->
+  
+          <p align="justify">
+              <i id='ITAOI22_abs'>
+                In this paper, we propose a computer vision, image processing, and automatic optical inspection solution to detect 
+                operator motion and quality assurance in the car factory. Our goal is to create a system to check the operators have 
+                inspected all inspection points on each car.
+                We set up two cameras on both sides of production line to detect car and operator locations. Inspection points defined 
+                by car factory are mapped onto the car. Initially, these points are uninspected and marked by gray. When the operator’s 
+                glove touches the inspection point, the inspected points are changed into green as inspected. After the car passes 
+                through the inspected area, we save inspection result, and inspect next car.
+                Deep learning and image processing algorithm are used in our system. We first use object detection algorithm to detect 
+                the wheel and map inspection points onto the car by relative position to wheels. Then, we find the operator by pose 
+                estimation algorithm, Blazepose. When the glove touches inspection point, then that point will be recorded as inspected 
+                (changed from gray to green).
+
+              </i>
+          </p>
+  
+          <!-- <pre xml:space="preserve">
+          @article{chao18radiotherapy,
+              title     = {Radiotherapy Target Contouring with Convolutional Gated Graph Neural
+                           Network},
+              author    = {Chao, Chun-Hung and Cheng, Yen-Chi and Cheng, Hsien-Tzu and Huang, Chi-Wen and
+                           Ho, Tsung-Ying and Tseng, Chen-Kan
+                          Lu, Le and Sun, Min},
+              journal   = {arXiv preprint arXiv:1904.02912},
+              year      = {2019},
+              }
+          </pre> -->
+
+          </div>
+      </td>
+  </tr>
+
+<br>
+<br>
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
         <tr><td><sectionheading>&nbsp;&nbsp;Projects</sectionheading></td></tr>
 </table>
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
+
     <tr>
         <td width="50%" valign="top" align="center">
-            <!-- <a href="https://drive.google.com/file/d/1bxvWa78_lHAS208jldcNKrj97YfstcCO/view?usp=sharing">
-            <img src="images/heart_beat_monitor.png" alt="sym" width="300" height="200" style="border-radius:15px"></a> -->
+            <!-- <a href="https://drive.google.com/file/d/1E1JoDSI_be8pjUFMkHGJu5WJtz53hYRT/view?usp=sharing"> -->
+            <img src="images/tiolida.png" alt="sym" width="300" height="200" style="border-radius:15px">
         </td>
 
         <td width="50%" valign="top">
             <p>
-                <!-- <a href="https://drive.google.com/file/d/1bxvWa78_lHAS208jldcNKrj97YfstcCO/view?usp=sharing" id="HEARTRATEMONITOR">
-                <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none"> -->
-                <!-- <heading>Heart Rate Monitor</heading></a>
+                <!-- <a href="https://drive.google.com/file/d/1E1JoDSI_be8pjUFMkHGJu5WJtz53hYRT/view?usp=sharing" id="TIOLIDA"> -->
+                <heading>Toric IOL Implant Digital Alignment (TIOLIDA)</heading>
                 <br>
-                 A heart rate monitor using NodeMCU that can detect and monitor heart rate in real-time and show results on the dashboard.
+                Augment graphic overlay over the live video of an eye from the surgical microscope to assist the surgeon with the alignment of the toric intraocular lens implant.
+                <!-- <a href="https://ieeexplore.ieee.org/document/9399785">Y. Zhai et al., JBHI 2021</a>. -->
                 <br>
-                 | <a href="https://drive.google.com/file/d/1fiitxF9f4ttNT-v2qQHwACQBs-Zc5ZGW/view?usp=sharing">dashboard demo video</a> |
-                  <a href="https://drive.google.com/file/d/1bxvWa78_lHAS208jldcNKrj97YfstcCO/view?usp=sharing">pdf</a> | -->
-            </p>
-
-        </td>
-    </tr>
-
-    <tr>
-        <td width="50%" valign="top" align="center">
-            <!-- <a href="https://drive.google.com/file/d/1E1JoDSI_be8pjUFMkHGJu5WJtz53hYRT/view?usp=sharing">
-            <img src="images/contextual.png" alt="sym" width="300" height="200" style="border-radius:15px"></a> -->
-        </td>
-
-        <td width="50%" valign="top">
-            <p>
-                <!-- <a href="https://drive.google.com/file/d/1E1JoDSI_be8pjUFMkHGJu5WJtz53hYRT/view?usp=sharing" id="CONTEXTUAL">
-                <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
-                <heading>Contextual Attention Inpainting Network with Non-local Blocks</heading></a>
-                <br>
-                Combined <a href="https://arxiv.org/abs/1801.07892">contextual attention module</a> and <a href="https://arxiv.org/abs/1711.07971">non-local blocks</a> to address image semantic segmentation problem.
-                <a href="https://arxiv.org/abs/1805.03356">Song et al., BMVC 2018</a>.
-                <br>
-                | <a href="https://drive.google.com/file/d/1E1JoDSI_be8pjUFMkHGJu5WJtz53hYRT/view?usp=sharing">pdf</a> | -->
+                <!-- | <a href="https://drive.google.com/file/d/1E1JoDSI_be8pjUFMkHGJu5WJtz53hYRT/view?usp=sharing">pdf</a> | -->
             </p>
     
         </td>
@@ -295,53 +335,169 @@
 
     <tr>
       <td width="50%" valign="top" align="center">
-          <!-- <a href="https://drive.google.com/file/d/13GEmPNO3k1miItbN21nQU4KYWB1Nc_kj/view?usp=sharing">
-          <img src="images/ml.png" alt="sym" width="300" height="200" style="border-radius:15px"></a> -->
+          <!-- <a href="https://drive.google.com/file/d/1GI4efJ5aIzY_ARBu7iqCgqtMFJE5kOug/view?usp=sharing"> -->
+          <img src="images/linalign.png" alt="sym" width="300" height="150" style="border-radius:15px">
       </td>
 
       <td width="50%" valign="top">
           <p>
-              <!-- <a href="https://drive.google.com/file/d/13GEmPNO3k1miItbN21nQU4KYWB1Nc_kj/view?usp=sharing" id="ML">-->
-              <!-- <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none"> -->
-              <!-- <heading>League of Legends -- The Consistency between Emotion Management and Rank</heading></a>
+              <!-- <a href="https://drive.google.com/file/d/1GI4efJ5aIzY_ARBu7iqCgqtMFJE5kOug/view?usp=sharing" id="LINALIGN"> -->
+              <heading>Automatic Image Alignment for Total Hip Arthroplasty</heading>
+              <br>
+                Proposed an automatic image alignment algiritm for images taken before and during Total Hip Arthroplasty. 
+                Deploy our algorithm as desktop application and web application to make our system easy to use at clinic.
+              <br>
+              | <a href="https://drive.google.com/file/d/1GI4efJ5aIzY_ARBu7iqCgqtMFJE5kOug/view?usp=sharing">video</a> |
+          </p>
+  
+      </td>
+    </tr>
+
+    <tr>
+      <td width="50%" valign="top" align="center">
+          <!-- <a href="https://drive.google.com/file/d/1GI4efJ5aIzY_ARBu7iqCgqtMFJE5kOug/view?usp=sharing"> -->
+          <img src="images/UAV.png" alt="sym" width="300" height="200" style="border-radius:15px">
+      </td>
+
+      <td width="50%" valign="top">
+          <p>
+              <!-- <a href="https://drive.google.com/file/d/1GI4efJ5aIzY_ARBu7iqCgqtMFJE5kOug/view?usp=sharing" id="LINALIGN"> -->
+              <heading>Object Detection on UAV images</heading>
+              <br>
+                Detect and recognize the tiny objects on aerial images in different scenarios. 
+                We took YOLOv7 as our model, and imporoved the performance with additional detection head and attentional modules.
+              <br>
+              | <a href="https://github.com/Anderson-Wu/YOLOv7_for_tiny_object_detection">code</a> |
+              <a href="doc/UAV.pdf">pdf</a> |
+          </p>
+  
+      </td>
+    </tr>
+
+    <tr>
+      <td width="50%" valign="top" align="center">
+          <!-- <a href="https://drive.google.com/file/d/1GI4efJ5aIzY_ARBu7iqCgqtMFJE5kOug/view?usp=sharing"> -->
+          <img src="images/3dcv.JPG" alt="sym" width="300" height="150" style="border-radius:15px">
+      </td>
+
+      <td width="50%" valign="top">
+          <p>
+              <!-- <a href="https://drive.google.com/file/d/1GI4efJ5aIzY_ARBu7iqCgqtMFJE5kOug/view?usp=sharing" id="LINALIGN"> -->
+              <heading>Speed Estimation using Optical Flow</heading>
+              <br>
+                With dashcam recoreded videos, we proposed a method to estimate the vehicle speed using optical flow model and 
+                CNN based speed estimater. For a video or live stream, we first compute its optical flow for each consecutive frames, 
+                and predict the speed with a deep neural network.
+              <br>
+              | <a href="https://drive.google.com/file/d/1i58eQbyFn4ytq-U1dQqgZkm655iqh5bt/view"> video </a> |
+              <a href="https://github.com/Brian90709/3d_final_project">code</a> |
+              <a href="doc/Speed Estimation using Optical Flow.pdf">pdf</a> |
+          </p>
+  
+      </td>
+    </tr>
+
+
+    <tr>
+      <td width="50%" valign="top" align="center">
+          <!-- <a href="https://drive.google.com/file/d/1GI4efJ5aIzY_ARBu7iqCgqtMFJE5kOug/view?usp=sharing"> -->
+          <img src="images/spml.png" alt="sym" width="300" height="100" style="border-radius:15px">
+      </td>
+
+      <td width="50%" valign="top">
+          <p>
+              <!-- <a href="https://drive.google.com/file/d/1GI4efJ5aIzY_ARBu7iqCgqtMFJE5kOug/view?usp=sharing" id="LINALIGN"> -->
+              <heading>Training with Noisy Labeled Dataset</heading>
+              <br>
+                In this project, we survey some common
+                techniques of noisy training and present a framework that combines multi-round
+                training and label refurbishment. We showed that our method outperform the
+                normal training process. In the two-class classification problem, even when 40%
+                of the data is mislabeled, our model still gets an accuracy of 85%.
+              <br>
+              |
+              <a href="https://github.com/cwLin1/SPML-Final">code</a> |
+              <a href="doc/SPML_Final_Report.pdf">pdf</a> |
+          </p>
+  
+      </td>
+    </tr>
+
+
+    <tr>
+      <td width="50%" valign="top" align="center">
+          <!-- <a href="https://drive.google.com/file/d/1GI4efJ5aIzY_ARBu7iqCgqtMFJE5kOug/view?usp=sharing"> -->
+          <img src="images/odrash.jpg" alt="sym" width="200" height="200" style="border-radius:15px"></a>
+      </td>
+
+      <td width="50%" valign="top">
+          <p>
+              <!-- <a href="https://drive.google.com/file/d/1GI4efJ5aIzY_ARBu7iqCgqtMFJE5kOug/view?usp=sharing" id="LINALIGN"> -->
+              <heading>Object Detection and Recognition with Its Application to Smart Homecare</heading></a>
+              <br>
+              This is a Collaboration Project with Industrial Technology Research Institute (ITRI) and Taipei Veterans General Hospital (TVGH). 
+              We designed the real-time recognition system (OD-RASH) to obtain blood pressure values and emergency notifications. 
+              To evaluate the accuracy of numerical identification, we simulate all the scenarios that will be encountered when shooting 
+              blood pressure monitor images for testing, and achieve to 99.8% accuracy.
+              <br>
+              | <a href="https://drive.google.com/file/d/1RywmDKubgL7i9ze9MR1_XIBBmHRljXdA/view?usp=share_link"> video </a> |
+              <a href="https://github.com/marcovwu/Blood_Pressure_APP">code</a> |
+              <a href="https://drive.google.com/file/d/1NEnkpIZw-vfwN9As-DUmmsThDctedPNR/view">pdf</a> |
+              
+          </p>
+  
+      </td>
+    </tr>
+    
+    <!-- <tr>
+      <td width="50%" valign="top" align="center">
+          <a href="https://drive.google.com/file/d/13GEmPNO3k1miItbN21nQU4KYWB1Nc_kj/view?usp=sharing">
+          <img src="images/ml.png" alt="sym" width="300" height="200" style="border-radius:15px"></a>
+      </td>
+
+      <td width="50%" valign="top">
+          <p>
+              <a href="https://drive.google.com/file/d/13GEmPNO3k1miItbN21nQU4KYWB1Nc_kj/view?usp=sharing" id="ML">
+              <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
+              <heading>League of Legends -- The Consistency between Emotion Management and Rank</heading></a>
               <br>
               Collected data and employed 4 machine learning models to explore relationships between players' 
               emotion management and their performances in League of Legends
               <br>
-               | <a href="https://drive.google.com/file/d/13GEmPNO3k1miItbN21nQU4KYWB1Nc_kj/view?usp=sharing">video</a> | -->
+               | <a href="https://drive.google.com/file/d/13GEmPNO3k1miItbN21nQU4KYWB1Nc_kj/view?usp=sharing">video</a> |
           </p>
   
       </td>
-  </tr>
+  </tr> -->
 
-  <tr>
+  <!-- <tr>
     <td width="50%" valign="top" align="center">
-        <!-- <a href="https://youtu.be/Cr4eDMfOO_4">
-        <img src="images/uav.png" alt="sym" width="300" height="200" style="border-radius:15px"></a> -->
+        <a href="https://youtu.be/Cr4eDMfOO_4">
+        <img src="images/uav.png" alt="sym" width="300" height="200" style="border-radius:15px"></a>
     </td>
 
     <td width="50%" valign="top">
         <p>
-            <!-- <a href="https://youtu.be/Cr4eDMfOO_4" id="UAV">
-            <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none"> -->
-            <!-- <heading>UAV Autopilot-- Face Detection and Obstacle Avoidance</heading></a>
+            <a href="https://youtu.be/Cr4eDMfOO_4" id="UAV">
+            <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
+            <heading>UAV Autopilot-- Face Detection and Obstacle Avoidance</heading></a>
             <br>
             Designed a system for drones that can 
             utilize computer vision to perform autonomous navigation and landing from one point to another 
             while avoiding human faces on a track.
             <br>
-            | <a href="https://youtu.be/Cr4eDMfOO_4">demo video (only includes marker detection)</a> | -->
+            | <a href="https://youtu.be/Cr4eDMfOO_4">demo video (only includes marker detection)</a> |
         </p>
 
     </td>
-</tr>
+</tr> -->
 
-<table width="100%" align="center" border="0" cellpadding="10">
+<!-- <table width="100%" align="center" border="0" cellpadding="10">
   <tr>
     <td>
       <sectionheading>&nbsp;&nbsp;Honor and Awards</sectionheading>
         <ul>
-          <!-- <li>Tau Beta Pi Engineering Honor Society Outstanding Graduate Awards, UIUC</li>
+          <li>Tau Beta Pi Engineering Honor Society Outstanding Graduate Awards, UIUC</li>
           <li>SS Radhakrishnan Scholarship, UIUC</li>
           <li>Tau Beta Pi Engineering Honor Society Member, UIUC</li>
           <li>IEEE Eta Kappa Nu Honor Society Member, Taiwan</li>
@@ -350,11 +506,11 @@
           <li>Teacher Association Scholarship, New Taipei City Educational Association</li>
           <li>Outstanding Academic Achievement Award, NCTU</li>
           <li>Rotary Club of Yung Ho Fellowship</li>
-          <li>Outstanding Academic Achievement Award in Digital Circuit Design, NCTU</li> -->
+          <li>Outstanding Academic Achievement Award in Digital Circuit Design, NCTU</li>
         </ul>
     </td>
   </tr>
-</table>
+</table> -->
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
     <tr><td><br><p align="right"><font size="2">
@@ -370,9 +526,11 @@ hideallbibs();
 </script>
 
 <script xml:space="preserve" language="JavaScript">
-hideblock('iscas20_abs');
+hideblock('CVGIP23_abs');
 </script>
-
+<script xml:space="preserve" language="JavaScript">
+  hideblock('ITAOI22_abs');
+  </script>
 </script>
 </body>
 
